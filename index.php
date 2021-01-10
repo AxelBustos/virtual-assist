@@ -91,7 +91,7 @@
                 font-size: 20px; color: #02363D; text-align: center;  line-height: 29px;">
             <p>¡Inscríbete y reserva tu lugar ahora!</p>
         </div></a>
-        <form action="#" method="POST" id="formulario" onsubmit="return false;">
+        <form method="POST" id="formulario" onsubmit="location.href='index.html'">
             <div class="label">
             <p class="descriplabel" for="nombre">Nombre:
                 <input type="text" class="inp" name="nombre" id="nombre">
@@ -107,6 +107,7 @@
 
             <p class="descriplabel" for="pais">País: <br>
                 <select name="pais" class="inp" required>
+                    <option value="">Seleccione un pais</option>
                     <option value="Argentina" id="AR">Argentina</option>
                     <option value="Afganistán" id="AF">Afganistán</option>
                     <option value="Albania" id="AL">Albania</option>
@@ -355,12 +356,15 @@
                 <input type="text" name="puesto" class="inp" id="puesto">
             <p><br>
                 
-            <input class="boton" type="submit" value="Inscribite"><br>
+            <input class="boton" type="submit" name="inscribir" value="Inscribite"><br>
             
             <input class="boton" type="button"  onclick="location.href='ver-asist.html';" value="Ver espectadores">
             
         </div>
         </form>
+        <?php
+        include("verificar.php");
+        ?>
     </div>
     <div class="div-footer">
         <footer>
