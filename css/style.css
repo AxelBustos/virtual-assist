@@ -102,6 +102,9 @@
     font-size: 23px;
     color: #FFFFFF;
     text-align: center;
+    display: block  ;
+    
+    
 }
 .boton:hover{
 
