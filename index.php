@@ -91,7 +91,7 @@
                 font-size: 20px; color: #02363D; text-align: center;  line-height: 29px;">
             <p>¡Inscríbete y reserva tu lugar ahora!</p>
         </div></a>
-        <form method="POST" id="formulario" onsubmit="location.href='index.html'">
+        <form method="POST" id="formulario">
             <div class="label">
             <p class="descriplabel" for="nombre">Nombre:
                 <input type="text" class="inp" name="nombre" id="nombre">
