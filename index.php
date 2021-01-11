@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b7f4116b45.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/validation.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+   
+    
         
     <title>Webinar</title>
 </head>
@@ -46,6 +49,18 @@
      <div class="imagenes">
          <img src="imagenes/Group 5.jpg">
      </div>
+     <div class="contenido-modal" id="contenido_modal">
+                
+        <div class="modal">
+
+            
+             <h3>Obrigado pelo seu interesse.</h3>
+             <p>Entraremos em contato com vocé em breve no e-mail que vocé preenchau no formulario</p>
+             <input type="button" id="cerrar" class="cerrar" value="Cerrar">
+
+        </div> 
+    
+    </div>
      <div class="contenido">
          <p class="texto">Te invitan este Webinar, donde trataremos la tematica de como humanizar la experiencia del cliente de Banca y Seguros en el nuevo entorno digital.<br><br> Además podremos conocer las estrategias que aplicó LOREM para generar una experiencia memorable para sus clientes, mientras se convertía en el gran Unicornio de LATAM. <br><br> Escucha de primera mano la voz de nuestros especialistas: </p>
             <br><br>
@@ -356,9 +371,11 @@
                 <input type="text" name="puesto" class="inp" id="puesto">
             <p><br>
                 
-            <input class="boton" type="submit" name="inscribir" value="Inscribite"><br>
+            <input class="boton" id="abrir" type="submit" name="inscribir" value="Inscribite">
+            
             
             <input class="boton" type="button"  onclick="location.href='ver-asist.html';" value="Ver espectadores">
+            
             
         </div>
         </form>
@@ -392,6 +409,8 @@
             <hr style="border-color: #ECF1F1 ; margin: 50px 100px 0px 100px;">
         </footer>
     </div>  
+
+     
 
    
 

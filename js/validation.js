@@ -44,9 +44,7 @@ window.addEventListener('load',function(){
         alert("Puesto de trabajo no definido");
         return false;
     }
-    else{
-        alert("Usted se inscribio correctamente");
-    }
+
 
 
 
