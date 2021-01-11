@@ -20,5 +20,7 @@ if (isset($_POST['inscribir'])){
    }
 
     }
+
+    
     
 ?>

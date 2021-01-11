@@ -5,6 +5,7 @@
 .head{
     width: 1440px;
     height: 350px;
+
     background-image:url("../imagenes/Group\ 4.svg");
    
 }
@@ -37,12 +38,13 @@
     float: left;
     display: inline;
     margin-left:130px;
+    flex:1;
     
 
 }
 
 .des{
-
+    flex:2;
     width: 463px;
     height: 822px;
     background-color:#F8F9F9;;
@@ -235,5 +237,36 @@
     opacity: 1;
 }
 
+.contenedor-tabla{
 
+   
+    margin: 50px 220px;
+    
+    
 
+}
+table{
+    background-color: #E6E3E3;
+    border-collapse: collapse;
+    width: 1000px;
+    text-align: left;
+}
+th , td{
+    padding: 20px;
+}
+tr:nth-child(even){
+
+background-color: #D8D6D6;
+}
+tr:hover td{
+    background-color:#D6D4D4;
+}
+.titulo-tabla{
+    background-color: #363636;
+    border-bottom: solid 5px #CBC6C6;
+    color: #FFFFFF;
+}
+.boton-espectador{
+    
+    padding: 20px 500px;
+}

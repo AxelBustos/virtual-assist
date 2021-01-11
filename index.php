@@ -374,7 +374,7 @@
             <input class="boton" id="abrir" type="submit" name="inscribir" value="Inscribite">
             
             
-            <input class="boton" type="button"  onclick="location.href='ver-asist.html';" value="Ver espectadores">
+            <input class="boton" type="button"  onclick="location.href='ver-asist.php';" value="Ver espectadores">
             
             
         </div>
