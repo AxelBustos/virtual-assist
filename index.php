@@ -371,7 +371,7 @@
                 <input type="text" name="puesto" class="inp" id="puesto">
             <p><br>
                 
-            <input class="boton" id="abrir" type="submit" name="inscribir" value="Inscribite">
+            <input class="boton" id="abrir" type="submit" name="inscribir" value="Inscribite"><br>
             
             
             <input class="boton" type="button"  onclick="location.href='ver-asist.php';" value="Ver espectadores">
