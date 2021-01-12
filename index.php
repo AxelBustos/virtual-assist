@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b7f4116b45.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/validation.js"></script>
-    <script type="text/javascript" src="js/modal.js"></script>
+
    
     
         
